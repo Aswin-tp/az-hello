@@ -40,7 +40,6 @@
     </dependency>
   </dependencies>
   <build>
-  <build>
     <finalName>hello-world-rest-api</finalName>
     <plugins>
       <plugin>
