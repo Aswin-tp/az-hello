@@ -52,7 +52,7 @@
         <version>1.7.0</version>
         <configuration>
           <schemaVersion>V2</schemaVersion>
-          <resourceGroup>jenkins-springboot-rg</resourceGroup>
+          <resourceGroup>TestDev</resourceGroup>
           <appName>hello-world-testapptp-7654</appName>
           <pricingTier>P1v2</pricingTier>
           <region>westeurope</region>
