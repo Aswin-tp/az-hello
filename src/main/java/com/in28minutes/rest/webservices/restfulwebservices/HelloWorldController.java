@@ -17,7 +17,7 @@ public class HelloWorldController {
 	@GetMapping(path = "/")
 	public ResponseEntity<byte[]> getImage() throws IOException {
 	    InputStream in = getClass()
-	      .getResourceAsStream("/static/images/snickers.png");
+	      .getResourceAsStream("/static/images/m&m.png");
 	    byte[] imageBytes = StreamUtils.copyToByteArray(in);
 
 		return ResponseEntity.ok().contentType(MediaType.IMAGE_JPEG).body(imageBytes);
