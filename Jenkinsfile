@@ -1,9 +1,8 @@
 pipeline {
-    agent {
-        docker {
-            image 'maven'
-            args '-v $HOME/.m2:/root/.m2'
-        }
+    agent any
+     tools {
+        // Install the Maven version configured as "M3" and add it to the path.
+        maven "M3"
     }
 
     stages {
