@@ -22,6 +22,9 @@
     <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
     <!-- Needed by io.fabric8 docker-maven-plugin -->
     <jar>${project.build.directory}/${project.build.finalName}.jar</jar>
+    <sonar.host.url>http://40.114.6.255:9000/</sonar.host.url>
+    <sonar.projectName>SonarSample</sonar.projectName>
+    <sonar.projectKey>SonarSample</sonar.projectKey>
   </properties>
   <dependencies>
     <dependency>
